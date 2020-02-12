@@ -1,3 +1,4 @@
+
 import time
 
 start_time = time.time()
@@ -27,6 +28,8 @@ while myName != 'AJ':
 
 
 print('Hello, ' + myName + '. That is a good name. How old are you?')
+
+myAge = int(input())
 
 if myAge < 13:
     print("You're just a kid")
